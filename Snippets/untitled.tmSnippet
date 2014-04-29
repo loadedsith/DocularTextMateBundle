@@ -4,10 +4,10 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * @doc ${1|function,overview|}
- * @name ${2:myModule}.moduleSection:${3:myFuction}
+ * @${1|doc,ngdoc|} ${2|function,module,overview,interface,directive,filter,service|}
+ * @name ${3:myModule}.moduleSection:${4:myFuction}
  *
- * @description ${4:This function rules!}
+ * @description ${5:This function rules!}
  *
  */</string>
 	<key>keyEquivalent</key>
