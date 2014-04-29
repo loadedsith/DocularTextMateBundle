@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @doc ${1|function,overview|}
+ * @name ${2:myModule}.moduleSection:${3:myFuction}
+ *
+ * @description ${4:This function rules!}
+ *
+ */</string>
+	<key>keyEquivalent</key>
+	<string>^~@\</string>
+	<key>name</key>
+	<string>Block Comment Documentation</string>
+	<key>scope</key>
+	<string>source.javascript, source.js</string>
+	<key>tabTrigger</key>
+	<string>/**</string>
+	<key>uuid</key>
+	<string>8F350751-21FD-41D9-9DDC-0B6141271E25</string>
+</dict>
+</plist>
