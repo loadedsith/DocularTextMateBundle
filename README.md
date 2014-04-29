@@ -5,14 +5,14 @@ Textmate 2 bundle for Docular
 
 #Install
 
-`cd /Applications/TextMate.app/Contents/SharedSupport/Bundles (Textmate 1.5.10 & 2)`
-`git clone git://github.com/loadedsith/DocularTextMateBundle Docular.tmbundle`
+    cd /Applications/TextMate.app/Contents/SharedSupport/Bundles (Textmate 1.5.10 & 2)
+    git clone git://github.com/loadedsith/DocularTextMateBundle Docular.tmbundle
 
 #Use
 
 `/**` + [TAB] = 
   
-     /**
+    /**
       * @doc overview
       * @name myModule.moduleSection:myFuction
       *
