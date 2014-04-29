@@ -1,7 +1,7 @@
 DocularTextMateBundle
 =====================
 
-Textmate 2 bundle for Docular
+Textmate 2 bundle for Docular is very much a work in progress: Feel free to create pull requests for new features.
 
 #Install
 
@@ -10,7 +10,13 @@ Textmate 2 bundle for Docular
 
 #Use
 
-`/**` + [TAB] = 
+`/**` + [TAB] 
+
+Command + Option + Control + [\\] 
+
+You can also command + control + [T] ('Select Bundle Item'), you'd be looking for a command called "block comment documentation" so you could probably type `comdoc` or something similar.
+
+#Result
   
     /**
       * @doc overview
@@ -19,7 +25,5 @@ Textmate 2 bundle for Docular
       * @description This function rules!
       *
       */
-      
-There are various tab stops here, at first you'll have a choice of `function` or `overview`, stop 2 is myModule and stop 3 is myFunction. Stop 4, the final stop, is the description.
 
-Feel free to create pull requests for new features.
+There are various tab stops here, at first you'll have a choice of `function` or `overview`, stop 2 is myModule and stop 3 is myFunction. Stop 4, the final stop, is the description.
