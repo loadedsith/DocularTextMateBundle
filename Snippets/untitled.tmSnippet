@@ -4,10 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * @${1|doc,ngdoc|} ${2|function,module,overview,interface,directive,filter,service|}
- * @name ${3:myModule}.moduleSection:${4:myFuction}
- *
- * @description ${5:This function rules!}
+ * @${1|doc,ngdoc|} ${2|function,module,overview,interface,object,directive,filter,service,method|}
+ * ${3:@name ${4:&lt;myModule&gt;}.moduleSection:${5:&lt;myFuction&gt;}}${3/$|(.+)/(?1::@id &lt;id&gt;)/}
+ * 
+ * ${7:${2/function|module|method$|(.+)/(?1::\n * @returns &lt;type&gt; &lt;description&gt;\n * @param &lt;type&gt; &lt;description&gt;)/}${2/interface|object$|(.+)/(?1::\n * @property &lt;type&gt; &lt;description&gt;)/}}
+ * ${2/directive$|(.+)/(?1::\n * @element &lt;element&gt;\n * @example &lt;multiline&gt;)/}
+ * @description ${6:&lt;description&gt;}
  *
  */</string>
 	<key>keyEquivalent</key>
@@ -15,7 +17,7 @@
 	<key>name</key>
 	<string>Block Comment Documentation</string>
 	<key>scope</key>
-	<string>source.javascript, source.js</string>
+	<string>source.javascript, source.js, attr.bundle-editor.snippet</string>
 	<key>tabTrigger</key>
 	<string>/**</string>
 	<key>uuid</key>
