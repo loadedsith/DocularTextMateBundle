@@ -5,12 +5,11 @@
 	<key>content</key>
 	<string>/**
  * @${1|doc,ngdoc|} ${2|function,module,overview,interface,object,directive,filter,service,method|}
- * ${3:@name ${4:&lt;myModule&gt;}.moduleSection:${5:&lt;myFuction&gt;}}${3/$|(.+)/(?1::@id &lt;id&gt;)/}
+ * ${3:@name ${4:&lt;myModule&gt;}.${5:moduleSection:}${6:&lt;myFuction&gt;}}${3/$|(.+)/(?1::@id &lt;id&gt;)/}
+ * ${7:
+ * ${2/function|method$|(.+)/(?1::@returns &lt;type&gt; &lt;description&gt;\n * @param &lt;type&gt; &lt;description&gt;)/}${2/interface|object$|(.+)/(?1::@property &lt;type&gt; &lt;description&gt;)/}${2/directive$|(.+)/(?1::@element &lt;element&gt;\n * @example &lt;multiline&gt;)/}}
  * 
- * ${7:${2/function|module|method$|(.+)/(?1::\n * @returns &lt;type&gt; &lt;description&gt;\n * @param &lt;type&gt; &lt;description&gt;)/}${2/interface|object$|(.+)/(?1::\n * @property &lt;type&gt; &lt;description&gt;)/}}
- * ${2/directive$|(.+)/(?1::\n * @element &lt;element&gt;\n * @example &lt;multiline&gt;)/}
- * @description ${6:&lt;description&gt;}
- *
+ * @description ${8:&lt;description&gt;}
  */</string>
 	<key>keyEquivalent</key>
 	<string>^~@\</string>
